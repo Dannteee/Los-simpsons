@@ -1,0 +1,36 @@
+*{box-sizing: border-box;}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffd521;
+}
+
+@font-face {
+    font-family: simpson;
+    src: url(../assest/Simpsonfont\ DEMO.otf);
+}
+
+nav{
+    font-family: simpson;
+}
+ 
+.gif{
+    background-color: aquamarine;
+}
+
+.homero{
+    font-family: simpson;
+    display: flex;
+    align-items: center;
+}
+
+.marge{
+    background-color: beige;
+    font-family: simpson;
+}
+
+p:target::before {
+    content: "►";
+    color: rgb(0, 8, 0);
+  }
