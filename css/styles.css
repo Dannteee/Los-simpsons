@@ -19,16 +19,8 @@ nav{
     background-color: aquamarine;
 }
 
-.homero{
+.container{
     font-family: simpson;
-    display: flex;
-    align-items: center;
-}
-
-.marge{
-    font-family: simpson;
-    display: flex;
-    align-items: center;
 }
 
 p:target::before {
@@ -39,8 +31,3 @@ h1{
     text-align: center;
 }
 
-audio{
-    box-shadow: 5px 5px 20px black;
-    border-radius: 90px;
-    transform: scale(1.05);
-}
