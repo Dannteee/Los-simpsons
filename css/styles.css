@@ -26,11 +26,22 @@ nav{
 }
 
 .marge{
-    background-color: beige;
     font-family: simpson;
+    display: flex;
+    align-items: center;
 }
 
 p:target::before {
-    content: "►";
     color: rgb(0, 8, 0);
-  }
+}
+
+h1{
+    text-align: center;
+}
+
+audio{
+    width: 1300px;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 90px;
+    transform: scale(1.05);
+}
