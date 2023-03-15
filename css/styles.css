@@ -21,6 +21,7 @@ nav{
 
 .container{
     font-family: simpson;
+    justify-content: center;
 }
 
 p:target::before {
